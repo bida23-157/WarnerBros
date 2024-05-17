@@ -1,0 +1,204 @@
+/* Custom CSS for Warner Bros. website */
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
+    .jumbotron {
+        padding: 20px;
+    }
+    .jumbotron h1,
+    .jumbotron p {
+        font-size: 1.5rem;
+    }
+    .home{
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    /* For desktop: */
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+}
+
+/*============= Navbar ============= */
+.navbar {
+    background-color: #343a40; /* Dark grey */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Yellow */
+}
+
+/*======== Main Content ========== */
+.container {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    background: #eee;
+    color: #007bff;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-transform: capitalize; 
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.home-header{
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.home-header a{
+    font-size: 22.5px;
+    color: #fff;
+    border: none;
+    background-color: #007bff;
+}
+
+.home-header a:hover{
+    color: #fff;
+    background-color: #565655;
+}
+
+.home-header-2{
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.home-header-2 a{
+    font-size: 22.5px;
+    color: #fff;
+    border: none;
+    background-color: #007bff;
+}
+
+.home-header-2 a:hover{
+    color: #fff;
+    background-color: #565655;
+}
+
+
+/* Home content here */
+.home{
+    display:flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5rem !important;
+}
+
+.home-img{
+    width: 40%;
+    height: 45%;
+    margin-right: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.home-repeated{
+    flex-wrap: wrap;
+    width: 40%;
+    height: 45%;
+    margin-right: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+/*About us*/
+
+.about-us{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.about-us-title{
+    text-align: center;
+    color: #007bff;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.about-us-text{
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555;
+}
+
+@media (min-width: 992px){
+    .about-us-text{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
+.social-icons{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+}
+
+.social-icons a i{
+    font-size: 24px;
+}
+
+/* Footer */
+
+footer{
+    color: #fff;
+}

@@ -1,0 +1,157 @@
+/*============= Media Queries =========== */
+
+
+/* ============ Navbar ============= */
+.navbar {
+    background-color: #343a40; /* Dark grey */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Yellow */
+}
+
+/*======== Main Content ========== */
+
+/* ============ Latest movies ============= */
+.latest-movies{
+    position: absolute;
+    left: 15.5%;
+    top: 18%;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.latest-movies a{
+    font-size: 22.5px;
+    color: #fff;
+    border: none;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+}
+
+.latest-movies a:hover{
+    color: #fff;
+    background-color: #565655;
+}
+
+
+.home{
+    display:flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5rem !important;
+}
+
+.home-img{
+    width: 40%;
+    height: 45%;
+    margin-top: 2px;
+    margin-right: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.home-img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ============ upcoming-movies ============= */
+.upcoming-movies{
+    position: absolute;
+    left: 17.5%;
+    top: 89%;
+    margin-top: 2px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.upcoming-movies a{
+    font-size: 22.5px;
+    color: #fff;
+    border: none;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+}
+
+.upcoming-movies a:hover{
+    color: #fff;
+    background-color: #565655;
+}
+
+/* ============ Latest tvshows ============= */
+.latest-tvshows{
+    position: absolute;
+    left: 17%;
+    top: 159%;
+    margin-top: 2px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.latest-tvshows a{
+    font-size: 22.5px;
+    color: #fff;
+    border: none;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+}
+
+.latest-tvshows a:hover{
+    color: #fff;
+    background-color: #565655;
+}
+
+/* ============ upcoming tvshows ============= */
+
+.upcoming-tvshows{
+    position: absolute;
+    left: 18.5%;
+    top: 230%;
+    margin-top: 2px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.upcoming-tvshows a{
+    font-size: 22.5px;
+    color: #fff;
+    border: none;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+}
+
+.upcoming-tvshows a:hover{
+    color: #fff;
+    background-color: #565655;
+}
+
+
+/*============== Footer ================= */
+footer{
+    margin-top: 45px;
+    color: #fff;
+}

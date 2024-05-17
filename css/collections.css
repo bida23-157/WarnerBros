@@ -1,0 +1,68 @@
+/*============= Media Queries =========== */
+
+
+/* ============ Navbar ============= */
+.navbar {
+    background-color: #343a40; /* Dark grey */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Yellow */
+}
+
+/* CSS styles for the collection list */
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ 
+ .card{
+    background: #FFF;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+ }
+
+ .card-img{
+    height: 200px;
+    width: 100%;
+    margin-top: 2px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.card-img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.read a{
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: #333EFF20;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #333eFF;
+    text-decoration: none;
+    font-size: 15px;
+ }
+
+/*============== Footer ================= */
+footer{
+    color: #fff;
+}
