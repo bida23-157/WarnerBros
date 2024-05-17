@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/movies.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+            }
+            h1 {
+                text-align: center;
+            }
+            .item {
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            .item img {
+                max-width: 100px;
+            }
+            .cart {
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 10px;
+            }
+            .cart h2 {
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body> <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="games_apps.html">Games & Apps</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="collections.html">Collections</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="feedback.html">Feedback</a>
+                  </li>
+              </ul>
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <!-- Latest movies section -->
+        <section class="home container" id="home">
+            <div class="latest-movies">
+                <a href="#" class="btn btn-primary display-6">Latest Movies <i class="fas fa-arrow-right"></i></a>
+            </div>
+                <div class="home-row">
+                    <img src="images/the beekeeper.jpg" alt="" class="home-img">
+                    <div class="home-text">
+                        <h3 class="home-title">The Beekeeper</h3>
+                        <p>Releasing 10 June <br>
+                        Starring: Jason Statham
+                        </p>
+                        <a href="collections.html" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-row">
+                    <img src="images/the last duel movie.jpg" alt="" class="home-img">
+                    <div class="home-text">
+                        <h3 class="home-title">The Last Duel</h3>
+                        <p>Releasing 10 June <br>
+                        Starring: Matt Damon
+                        </p>
+                        <a href="collections.html" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="collections.html" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-row">
+                    <img src="images/lift movie.jpg" alt="" class="home-img">
+                    <div class="home-text">
+                        <h3 class="home-title">Lift</h3>
+                        <p>Releasing 10 June<br>
+                        Starring: Kelvin Hart
+                        </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="collections.html" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Upcoming Movies section -->
+        <section class="home container" id="home-2">
+            <div class="upcoming-movies">
+                <a href="#" class="btn btn-primary display-6">Upcoming Movies <i class="fas fa-arrow-right"></i></a>
+            </div>
+                <div class="home-row">
+                    <img src="images/damaged movie.jpg" alt="" class="home-img">
+                    <div class="home-text">
+                        <h3 class="home-title">Damaged</h3>
+                        <p>Releasing 10 June <br>
+                        Starring: Jason Statham
+                        </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-row">
+                    <img src="images/dune part two.jpg" alt="" class="home-img">
+                    <div class="home-text">
+                        <h3 class="home-title">Dune: Part Two</h3>
+                        <p>Releasing 10 June <br>
+                        Starring: Matt Damon
+                        </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-row">
+                    <img src="images/the garfield movie.jpg" alt="" class="home-img">
+                    <div class="home-text">
+                        <h3 class="home-title">The Garfield Movie</h3>
+                        <p>Releasing 10 June<br>
+                        Starring: Kelvin Hart
+                        </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+        </section>
+        
+        <!-- Latest Tv Shows section -->
+        <section class="home container" id="home-2">
+            <div class="latest-tvshows">
+                <a href="#" class="btn btn-primary display-6">Latest TV Shows <i class="fas fa-arrow-right"></i></a>
+            </div>
+                <div class="home-row">
+                <img src="images/bridgerton show.jpg" alt="" class="home-img">
+                <div class="home-text">
+                    <h3 class="home-title">Bridgerton</h3>
+                    <p>Releasing 10 June <br>
+                    Starring: Jason Statham
+                    </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-row">
+                    <img src="images/american dad.jpg" alt="" class="home-img">
+                    <div class="home-text">
+                        <h3 class="home-title">American Dad</h3>
+                        <p>Releasing 10 June <br>
+                        Starring: Jason Statham
+                        </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-row">
+                <img src="images/friends show.jpg" alt="" class="home-img">
+                <div class="home-text">
+                    <h3 class="home-title">F.R.I.E.N.D.S</h3>
+                    <p>Releasing 10 June <br>
+                    Starring: Marta Kauffman
+                    </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Upcoming Tv Shows section -->
+        <section class="home container" id="home-2">
+            <div class="upcoming-tvshows">
+                <a href="#" class="btn btn-primary display-6">Upcoming TV Shows <i class="fas fa-arrow-right"></i></a>
+            </div>
+                <div class="home-row">
+                <img src="images/young sheldon.jpg" alt="" class="home-img">
+                <div class="home-text">
+                    <h3 class="home-title">Young Sheldon</h3>
+                    <p>Releasing 10 June <br>
+                    Starring: Jason Statham
+                    </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-row">
+                    <img src="images/the rookie.jpg" alt="" class="home-img">
+                    <div class="home-text">
+                        <h3 class="home-title">The Rookie</h3>
+                        <p>Releasing 10 June <br>
+                        Starring: Jason Statham
+                        </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-row">
+                <img src="images/the good doctor.jpg" alt="" class="home-img">
+                <div class="home-text">
+                    <h3 class="home-title">The Good Doctor</h3>
+                    <p>Releasing 10 June <br>
+                    Starring: Marta Kauffman
+                    </p>
+                        <a href="#" style="color: #007bff;" class="add-btn">
+                            <i class="bx bx-right-arrow" style="color: #007bff;"></i>
+                            <span style="color: #007bff;">Watch Now</span>
+                        </a>
+                        <br>
+                        <a href="#" style="color: crimson;" class="add-btn">
+                            <i class="bx bx-plus" style="color: crimson;"></i>
+                            <span style="color: crimson;">My List</span>
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Js to add movies & tvshows to the collection.html upon clicking on add button -->
+        <script>
+            var coll = document.getElementsByClassName("add-btn");
+            for (var i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    var current = document.getElementsByClassName("collection-text");
+                    var img = this.parentElement.parentElement.getElementsByTagName("img")[0].getAttribute("src");
+                    var title = this.parentElement.getElementsByClassName("home-title")[0].innerHTML;
+                    var exists = false;
+                    for (var j = 0; j < current.length; j++) {
+                        if (current[j].innerHTML.includes(title)) {
+                            exists = true;
+                            break;
+                        }
+                    }
+                    if (!exists) {
+                        var node = document.createElement("DIV");
+                        var textnode = document.createTextNode(title);
+                        node.appendChild(textnode);
+                        node.setAttribute("class", "collection-text");
+                        node.style.backgroundImage = "url('"+img+"')";
+                        document.getElementById("collectionList").appendChild(node);
+                    }
+                });
+            }
+        </script>
+    
+    <!-- Footer -->
+    <footer class="footer container-fluid bg-dark text-center">
+        <p class="pt-4 pb-2">© 2024 WarnerMedia. All rights reserved.</p>
+    </footer>
+    </body>
+</html>
